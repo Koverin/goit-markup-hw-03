@@ -137,6 +137,7 @@ body {
     background-color: var(--additional-cl);
     color: var(--main-bg-cl);
     border-color: transparent;
+    border-radius: 4px;
     cursor: pointer;
 }
 
@@ -166,6 +167,7 @@ body {
 
 
 .heading {
+    margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
     line-height: calc(16 / 14);

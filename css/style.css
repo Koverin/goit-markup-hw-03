@@ -1,3 +1,13 @@
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
 :root {
     --text-color: #212121;
     --subtext-color: #757575;
@@ -21,6 +31,8 @@ body {
 }
 
 .list {
+    margin: 0;
+    padding: 0;
     list-style: none;
 }
 
@@ -105,13 +117,20 @@ body {
     color: var(--additional-cl);
 }
 
+.header {
+    outline: 2px solid red;
+}
+
 /* main-content-one-section */
 
 .section {
+    outline: 2px solid red;
     background-color: var(--headfooter-bg-cl);
 }
 
 .section-title {
+    margin-bottom: 30px;
+    margin-top: 0;
     font-style: normal;
     font-weight: 900;
     font-size: 44px;
@@ -126,6 +145,7 @@ body {
     margin-left: auto;
     margin-right: auto;
     padding: 10px 32px;
+    min-width: 216px;
     font-family: inherit;
     font-weight: 700;
     font-size: 16px;
@@ -166,7 +186,12 @@ body {
 /* organization */
 
 
+.section-org {
+    outline: 2px solid red;
+}
+
 .heading {
+    margin-top: 0;
     margin-bottom: 10px;
     font-weight: 700;
     font-size: 14px;
@@ -177,6 +202,7 @@ body {
 }
 
 .org-subtitle {
+    margin-top: 0;
     font-weight: 400;
     font-size: 14px;
     line-height: calc(24 / 14);
@@ -186,7 +212,12 @@ body {
 
 /* photo-list */
 
+.photo-section {
+    outline: 2px solid red;
+}
+
 .photo-title {
+    margin-top: 0;
     font-weight: 700;
     font-size: 36px;
     line-height: calc(42 / 36);
@@ -292,5 +323,11 @@ body {
 
 .proj-link {
     text-decoration: none;
+}
+
+.conteiner {
+    width: 1170px;
+    padding-left: 15px;
+    padding-right: 15px;
 }
 

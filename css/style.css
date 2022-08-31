@@ -22,9 +22,9 @@ body {
   font-family: "Roboto", sans-serif;
   font-size: 14px;
   letter-spacing: 0.03em;
-  width: 1600px;
+  /* width: 1600px;
   margin-right: auto;
-  margin-left: auto;
+  margin-left: auto; */
 }
 
 ul {
@@ -162,6 +162,14 @@ ul {
 }
 
 .section {
+  background-image: url(../images/mainhero-bg.jpg/Img.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 1600px;
+  margin-right: auto;
+  margin-left: auto;
+
   padding-top: 200px;
   padding-bottom: 200px;
   background-color: var(--headfooter-bg-cl);
